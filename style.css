@@ -1,0 +1,161 @@
+
+*{
+    font-family: Champagne;
+    font-weight: 100;
+
+}
+.container {
+    width: 1900px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #FF7F50;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px black;
+    color: #FFF;
+}
+
+.sidebar {
+    width: 100%;
+    float: left;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.sidebar li a {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.sidebar li a:hover {
+    background-color: #3B5949;
+}
+
+.sidebar li a.active{
+    background-color: #3B5949;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.content {
+    width: 1900px;
+    float: right;
+	max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+	
+    border-radius: 5px;
+    color: #2c3e50;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+form {
+    width:500px;
+    margin:80px auto;
+	box-sizing: border-box;
+	background: #FF7F50;
+	
+}
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+.button {
+    border:2px solid #53bd84;
+    background-color:#53bd84;
+    color:#FFF8DC;
+	padding: 14px 20px;
+	float: left;
+	width: 50%;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#FFF8DC;
+}
+
+.containerr {
+    width: 1900px;
+    max-width: 120%;
+    margin: 0 auto;
+    background: #FF7F50;
+    border-radius: 0px;
+	padding: 0px;
+  
+}
+::-webkit-input-placeholder { /* For WebKit browsers */
+    color:    #0000FF;
+                font-family:Helvetica Neue;
+                font-weight:bold;
+}
+:-moz-placeholder { /* For Mozilla Firefox 4 to 18 */
+    color:    #0000FF;
+                font-family:Helvetica Neue;
+                font-weight:bold;
+}
+::-moz-placeholder { /* For Mozilla Firefox 19+ */
+    color:    #0000FF;
+                font-family:Helvetica Neue;
+                font-weight:bold;
+}
+:-ms-input-placeholder { /* For Internet Explorer 10+ */
+    color:    #0000FF;
+                font-family:Helvetica Neue;
+                font-weight:bold;
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
